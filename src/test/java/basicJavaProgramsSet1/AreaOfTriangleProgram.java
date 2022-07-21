@@ -2,11 +2,11 @@ package basicJavaProgramsSet1;
 
 /**
  * 
- * 
  * @author Azharuddin Khan
  * 
  * Area Of Triangle Formula :      Area = 1/2*Base*Height
  * 
+ * @description: calculating area of triangle whose base and width can be whole integer or decimal or float
  *
  */
 public class AreaOfTriangleProgram {
@@ -35,8 +35,8 @@ public class AreaOfTriangleProgram {
 	
 	public static void main(String[] args) {
 		
-		System.out.println(AreaOfTriangleProgram.areaOfTriangle(7f, 9f)); 
-		System.out.println(AreaOfTriangleProgram.areaOfTriangle(7.0, 9.0));
+		System.out.println(areaOfTriangle(7f, 9f)); 
+		System.out.println(areaOfTriangle(7.0, 9.0));
 		System.out.println(areaOfTriangle(7, 9));
 	}
 	

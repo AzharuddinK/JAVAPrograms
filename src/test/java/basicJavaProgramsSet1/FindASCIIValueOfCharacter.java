@@ -3,6 +3,8 @@ package basicJavaProgramsSet1;
 /**
  * 
  * @author Azharuddin Khan
+ * 
+ * @description : Print ASCII Value of a character in Java
  *
  */
 public class FindASCIIValueOfCharacter {
@@ -22,8 +24,8 @@ public class FindASCIIValueOfCharacter {
 	
 	public static void main(String[] args) {
 		
-		System.out.println(FindASCIIValueOfCharacter.getASCIIValue('A'));
-		System.out.println(FindASCIIValueOfCharacter.getASCIICode('A'));
+		System.out.println(getASCIIValue('A'));
+		System.out.println(getASCIICode('A'));
 	}
 	
 	

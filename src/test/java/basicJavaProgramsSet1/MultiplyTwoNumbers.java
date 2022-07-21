@@ -3,6 +3,7 @@ package basicJavaProgramsSet1;
 /**
  * 
  * @author Azharuddin Khan
+ * @Description : Multiply of two integer whole numbers
  *
  */
 public class MultiplyTwoNumbers {
@@ -16,7 +17,6 @@ public class MultiplyTwoNumbers {
 	
 	public static void main(String[] args) {
 		System.out.println(multiply(200, 3));
-		System.out.println(multiply(0, 3));
 		
 	}
 
